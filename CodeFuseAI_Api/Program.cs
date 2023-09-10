@@ -5,9 +5,9 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using CodeFuseAI_Api.Helper;
-using SharedServices.Data;
-using SharedServices.Repository;
-using SharedServices.Repository.IRepository;
+using CodeFuseAI_Shared.Data;
+using CodeFuseAI_Shared.Repository;
+using CodeFuseAI_Shared.Repository.IRepository;
 
 
 var builder = WebApplication.CreateBuilder(args);
